@@ -6,7 +6,7 @@ const expApp = express();
 expApp.use(express.static(__dirname + '/public'));
 
 hbs.registerPartials(__dirname + '/views/partials');
-expApp.set('view engine', 'hbs');np
+expApp.set('view engine', 'hbs');
 
 expApp.get('/', (req, res) =>{
     res.render('partials/home');
