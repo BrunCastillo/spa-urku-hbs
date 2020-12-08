@@ -1,0 +1,1 @@
+nodemon main -e hbs,js,css,html
