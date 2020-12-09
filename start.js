@@ -8,29 +8,29 @@ hbs.registerPartials('views/partials');
 //Express HBS engine
 app.set('view engine', 'hbs');
 
-app.get('/', (req,res) => {
+app.get('', (req,res) => {
     res.render('home')
 });
 
-app.get('/portfolio', (req,res) => {
+app.get('portfolio', (req,res) => {
     res.render('portfolio')
 });
 
-app.get('/product1', (req,res) => {
+app.get('product1', (req,res) => {
     res.render('product1')
 });
 
-app.get('/blog', (req,res) => {
+app.get('blog', (req,res) => {
     res.render('blog')
 });
 
-app.get('/about', (req,res) => {
+app.get('about', (req,res) => {
     res.render('about', {
         year: new Date().getFullYear()
     })
 })
 
-app.get('/contact', (req,res) => {
+app.get('contact', (req,res) => {
     res.render('contact')
 });
 
