@@ -33,8 +33,3 @@ app.get('/about', (req,res) => {
 app.get('/contact', (req,res) => {
     res.render('contact')
 });
-
-
-
-app.listen(8080);
-console.log('Ta prendido el puerto 8080 master')
