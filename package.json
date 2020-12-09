@@ -4,5 +4,23 @@
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
     "hbs": "^4.1.1"
-  }
+  },
+  "name": "spa",
+  "description": "nodemon main -e hbs,js,css,html",
+  "version": "1.0.0",
+  "main": "start.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazarenoSotto/spa-urku-hbs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazarenoSotto/spa-urku-hbs/issues"
+  },
+  "homepage": "https://github.com/NazarenoSotto/spa-urku-hbs#readme"
 }
