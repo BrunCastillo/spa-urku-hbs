@@ -11,9 +11,9 @@
   "main": "start.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node start"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NazarenoSotto/spa-urku-hbs.git"
