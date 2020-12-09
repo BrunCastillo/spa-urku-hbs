@@ -16,6 +16,10 @@ app.get('/portfolio', (req,res) => {
     res.render('portfolio')
 });
 
+app.get('/product1', (req,res) => {
+    res.render('product1')
+});
+
 app.get('/blog', (req,res) => {
     res.render('blog')
 });
