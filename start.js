@@ -2,9 +2,7 @@ const PORT = process.env.PORT || '8080';
 const express = require('express');
 const app = express();
 const hbs = require('hbs');
-let server = require('http').Server(app);
 
-app.set("port",PORT);
 app.use(express.static('public'));
 hbs.registerPartials('views/partials');
 //Express HBS engine
@@ -36,6 +34,6 @@ app.get('/contact', (req,res) => {
     res.render('contact')
 });
 
-server.listen(PORT, function() {  // do not add localhost here if you are deploying it
+app.listen(PORT, function() {  // do not add localhost here if you are deploying it
     console.log("server listening to port "+PORT);
 });
